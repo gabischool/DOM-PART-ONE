@@ -40,3 +40,64 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+let mainTitle = document.querySelectorAll(".text-content h4")
+
+// main content
+
+mainTitle[0].textContent = siteContent["main-content"]["features-h4"];
+mainTitle[1].textContent = siteContent["main-content"]["about-h4"];
+mainTitle[2].textContent = siteContent["main-content"]["services-h4"];
+mainTitle[3].textContent = siteContent["main-content"]["product-h4"];
+mainTitle[4].textContent = siteContent["main-content"]["vision-h4"];
+
+
+let mainContentP = document.querySelectorAll(".text-content p")
+
+mainContentP[0].textContent = siteContent["main-content"]["features-content"];
+mainContentP[1].textContent = siteContent["main-content"]["about-content"];
+mainContentP[2].textContent = siteContent["main-content"]["services-content"];
+mainContentP[3].textContent = siteContent["main-content"]["product-content"];
+mainContentP[4].textContent = siteContent["main-content"]["vision-content"];
+//add nav bar and paragraph */
+
+
+let topImage = document.querySelector("#cta-img")
+topImage.setAttribute('src', siteContent["cta"]['img-src']);
+
+
+let middleImage = document.querySelector("#middle-img");
+middleImage.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
+
+
+let navItems = document.querySelectorAll("nav a")
+navItems.forEach(function(item, index) {
+  item.textContent = siteContent.nav[`nav-item-${index + 1}`]
+})
+
+// botton and title content //
+
+let buttonText = document.querySelector(".cta-text button");
+buttonText.textContent = siteContent.cta.button;
+
+let titleText = document.querySelector(".cta-text h1");
+titleText.textContent = siteContent.cta.h1;
+
+
+// bottom content:  contact copyright // 
+
+let bottomContent = document.querySelector("footer p");
+bottomContent.textContent = siteContent["footer"]["copyright"];
+
+
+
+
+
+contactText[0].textContent = siteContent["contact"]["contact-h4"];
+console.log(contactText)
+contactText[1].textContent = siteContent["contact"]["address"];
+contactText[2].textContent = siteContent["contact"]["phone"];
+contactText[3].textContent = siteContent["contact"]["email"];
+
+
+
