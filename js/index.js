@@ -117,3 +117,20 @@ bottomContentTwo[2].textContent = siteContent["main-content"]["vision-h4"]
 
 const bottomParaThree = document.querySelectorAll(".bottom-content p")
 bottomParaTwo[2].textContent = siteContent["main-content"]["vision-content"]
+
+
+//ContactSection
+
+const contact = document.querySelectorAll(".contact h4")
+contact[0].textContent= siteContent["contact"]["contact-h4"]
+
+const contactPara = document.querySelectorAll(".contact p")
+contactPara[1].textContent = siteContent["contact"]["address"]
+
+const contactPhone = document.querySelectorAll(".contact p")
+contactPhone[2].textContent = siteContent["contact"]["phone"]
+
+//footer
+
+const footer = document.querySelector("footer p")
+footer.textContent= siteContent["footer"]["copyright"]
