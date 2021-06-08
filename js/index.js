@@ -76,3 +76,16 @@ navBarFour[4].textContent = siteContent["nav"]["nav-item-5"]
 
 const navBarFive = document.querySelectorAll("nav a")
 navBarFive[5].textContent = siteContent["nav"]["nav-item-6"]
+
+//MainContent
+const mainContent = document.querySelectorAll(".top-content h4")
+mainContent[0].textContent = siteContent["main-content"]["features-h4"]
+
+const mainPara = document.querySelectorAll(".top-content  p")
+mainPara[0].textContent = siteContent["main-content"]["features-content"]
+
+const mainContentTwo = document.querySelectorAll(".top-content h4")
+mainContentTwo[1].textContent = siteContent["main-content"]["about-h4"]
+
+const mainParaTwo = document.querySelector(".text-content p")
+mainPara[1].textContent = siteContent["main-content"]["about-content"]
