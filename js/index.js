@@ -55,3 +55,15 @@ button.textContent = siteContent['cta']['button']
 //headerImage
 const headerImage = document.querySelector("#cta-img")
 headerImage.setAttribute('src', siteContent["cta"]["img-src"])
+
+
+//navBar
+const navBar = document.querySelectorAll("nav a")
+navBar[0].textContent = siteContent["nav"]["nav-item-1"]
+
+
+const navBarOne= document.querySelectorAll("nav a")
+navBar[1].textContent = siteContent["nav"]["nav-item-2"]
+
+const navBarTwo = document.querySelectorAll("nav a")
+navBarTwo[2].textContent = siteContent["nav"]["nav-item-3"]
