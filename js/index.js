@@ -89,3 +89,11 @@ mainContentTwo[1].textContent = siteContent["main-content"]["about-h4"]
 
 const mainParaTwo = document.querySelector(".text-content p")
 mainPara[1].textContent = siteContent["main-content"]["about-content"]
+
+
+//MiddleImage
+
+const middleImage = document.querySelector(".middle-img")
+middleImage.setAttribute('src',siteContent["main-content"]["middle-img-src"])
+
+
