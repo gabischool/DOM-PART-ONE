@@ -67,3 +67,12 @@ navBar[1].textContent = siteContent["nav"]["nav-item-2"]
 
 const navBarTwo = document.querySelectorAll("nav a")
 navBarTwo[2].textContent = siteContent["nav"]["nav-item-3"]
+
+const navBarThree = document.querySelectorAll("nav a")
+navBarThree[3].textContent = siteContent["nav"]["nav-item-4"]
+
+const navBarFour = document.querySelectorAll("nav a")
+navBarFour[4].textContent = siteContent["nav"]["nav-item-5"]
+
+const navBarFive = document.querySelectorAll("nav a")
+navBarFive[5].textContent = siteContent["nav"]["nav-item-6"]
