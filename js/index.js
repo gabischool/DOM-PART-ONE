@@ -97,3 +97,23 @@ const middleImage = document.querySelector(".middle-img")
 middleImage.setAttribute('src',siteContent["main-content"]["middle-img-src"])
 
 
+
+//BottomContent
+
+const bottomContent = document.querySelectorAll(".bottom-content h4")
+bottomContent[0].textContent = siteContent["main-content"]["services-h4"]
+
+const bottomPara = document.querySelectorAll(".bottom-content p")
+bottomPara[0].textContent = siteContent["main-content"]["services-content"]
+
+const bottomContentTwo= document.querySelectorAll(".bottom-content h4")
+bottomContentTwo[1].textContent = siteContent["main-content"]["product-h4"]
+
+const bottomParaTwo = document.querySelectorAll(".bottom-content p")
+bottomParaTwo[1].textContent = siteContent["main-content"]["product-content"]
+
+const bottomContentThree= document.querySelectorAll(".bottom-content h4")
+bottomContentTwo[2].textContent = siteContent["main-content"]["vision-h4"]
+
+const bottomParaThree = document.querySelectorAll(".bottom-content p")
+bottomParaTwo[2].textContent = siteContent["main-content"]["vision-content"]
